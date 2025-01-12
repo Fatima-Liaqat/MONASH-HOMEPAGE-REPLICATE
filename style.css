@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*
+{
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar-1
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color:  #006DAE;
+  color: white;
+  padding: 10px;
+  font-family: Helvetica, Arial;
+  font-size: 13px;
+}
+.navbar-1 i{
+  color: white;
+}
+.fa
+{
+  color: white;
+  margin-left: 10px;
+}
+.options
+{
+  background-color:  #006DAE;
+  color: white;
+  border: #006DAE;
+}
+.nav1-links a
+{
+  padding: 5px;
+  margin-left: 10px;
+  color: white;
+}
+.links-nav1 span {
+  padding: 5px 10px; /* Add padding */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.links-nav1 span:hover {
+  background-color:#186294; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.nav1-links a:hover
+{
+  background-color:#186294;
+}
+.navbar-2
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.linksnavbar-2
+{
+  margin-top: 3vh;
+}
+.linksnavbar-2 a
+{
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 5px;
+}
+.linksnavbar-2 a:hover
+{
+  background-color:#006DAE;
+}
+.apply-button button
+{
+  margin-top: 1.5vh;
+  background-color: white;
+  padding: 8px;
+  margin-right: 10px;
+  border:  1px solid #186294;
+  transition: 0.5s ease;
+}
+.apply-button button:hover
+{
+  background-color: #006DAE;
+  color: white;
+  transform: scale(1.05);
+}
+.logo-image
+{
+  width: 10vw;
+  height: 8vh;
+}
+.alignment-text
+{
+  position: absolute;
+}
+.background-image
+{
+  width: 100vw;
+  height: 70vh;
+}
+.search
+{
+  background-color: rgb(245, 242, 242);
+  position: absolute;
+  top: -40vh;
+  left: 30vw;
+  padding-left: 10vw;
+  padding-right: 15vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 70px;
+  border: 1px solid white;
+}
+.search-i
+{
+  position: absolute;
+  top: -38.5vh;
+  left: 32vw;
+  color:#186294;
+}
+.image-container h1
+{
+  position: absolute;
+   top: -60vh;
+  left: 6vw;
+  color: white;
+  font-size: 3rem;
+}
+.image-container p
+{
+  position: absolute;
+  top: -35vh;
+  left: 6vw;
+  color: white;
+  display: flex;
+}
+span
+{
+  margin-left: 5px;
+}
+.image-container p i
+{
+  margin-top: 0.3vh;
+  margin-left: 5px;
+}
+.makechange-div1
+{
+  font-family: Helvetica, Arial;
+  margin-top: 8vh;
+  line-height: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+/* Container styling to align boxes */
+.container {
+  display: flex; /* Use Flexbox to place boxes in a row */
+  justify-content: space-between; /* Add space between boxes */
+  align-items: flex-start; /* Align boxes at the top */
+  gap: 20px; /* Optional: Space between boxes */
+  margin: 20px;
+  margin-bottom: 6vh;
+  margin-right: 23vw;
+  margin-left: 25vw;
+}
+
+/* Individual box styling */
+.experience {
+  flex: 1; /* Make all boxes equal width */
+  padding: 47px;
+  border: 1px solid rgba(0, 0, 0, 0.026); /* Border styling */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.39); /* Subtle shadow for depth */
+  background-color:white; /* Light background color */
+  text-align: center; /* Center text within the box */
+}
+.experience i{
+  color: #819099a0;
+}
+/* Heading styling inside boxes */
+.experience h1 {
+  font-size: 1.5em; /* Adjust heading size */
+  margin-bottom: 10px;
+  color:  #006DAE; /* Optional: Dark text color */
+}
+.experience:hover
+{
+  transform: scale(1.05);
+}
+/* Paragraph styling inside boxes */
+.experience p {
+  font-size: 1em; /* Adjust text size */
+  color: #555; /* Optional: Light text color */
+}
+.study-options {
+  flex: 1; /* Make all boxes equal width */
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.026); /* Border styling */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.39); /* Subtle shadow for depth */
+  background-color:white; /* Light background color */
+  text-align: center; /* Center text within the box */
+}
+.study-options:hover
+{
+  transform: scale(1.05);
+}
+/* Heading styling inside boxes */
+.study-options h1 {
+  font-size: 1.5em; /* Adjust heading size */
+  margin-bottom: 10px;
+  color: #006DAE; /* Optional: Dark text color */
+}
+.study-options i{
+  color: #819099a0;
+}
+/* Paragraph styling inside boxes */
+.study-options p {
+  font-size: 1em; /* Adjust text size */
+  color: #555; /* Optional: Light text color */
+}
+.scholarships {
+  flex: 1; /* Make all boxes equal width */
+  padding: 29px;
+  border: 1px solid rgba(0, 0, 0, 0.026); /* Border styling */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.39); /* Subtle shadow for depth */
+  background-color:white; /* Light background color */
+  text-align: center; /* Center text within the box */
+}
+.scholarships:hover
+{
+  transform: scale(1.05);
+}
+/* Heading styling inside boxes */
+.scholarships h1 {
+  font-size: 1.5em; /* Adjust heading size */
+  margin-bottom: 10px;
+  color: #006DAE; /* Optional: Dark text color */
+}
+.scholarships i{
+  color: #819099a0;
+}
+/* Paragraph styling inside boxes */
+.scholarships p {
+  font-size: 1em; /* Adjust text size */
+  color: #555; /* Optional: Light text color */
+}
+
+.rankings-image
+{
+  width: 100vw;
+  height: 70vh;
+  overflow: hidden;
+  margin-bottom: 10vh;
+}
+/* Footer Section Styles */
+.footer {
+  background-color:#323232; /* Light grey background */
+  padding: 3vw;
+  font-family: Arial, sans-serif;
+  color: #d2d2d2;
+}
+/* Social Media Section */
+.social-media 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+.social-media .social-icon {
+  font-size: 1vw; /* Icon size */
+  margin-right: 2vw;
+  color: #d2d2d2;
+}
+
+.social-media .social-icon:hover {
+  color: #006DAE;
+}
+/* Footer content container */
+.footer-content {
+  background-color:#323232;
+  display: flex;
+  justify-content: space-between;
+}
+/* Footer section */
+.footer-section 
+{
+  width: 30%;
+  margin-bottom: 3vh;
+  line-height: 5vh;;
+}
+
+/* Footer section headings */
+.footer-section h3 {
+  font-size: 2vw;
+  margin-bottom: 1vh;
+  font-weight: bold;
+  color: #d2d2d2;
+}
+
+/* Footer section paragraphs and links */
+.footer-section p
+{
+  font-size: 1vw;
+  margin: 0.5vh 0;
+}
+
+.footer-section a {
+  color: #d2d2d2;
+  text-decoration: none;
+  display: flex;
+}
+
+.footer-section a:hover {
+  color: #fafbfb;
+}
+
+/* Footer Separator Line */
+.footer-separator {
+  border-top: 1px solid #7f7878;
+  margin: 3vh 0;
+  width: 100%;
+}
+.legal-info h3
+{
+  font-size: 1.4vw;
+}
+/* Legal Information Section */
+.footer-image 
+{
+  background-color:#323232;
+  width: 10vw;
+  height: auto;
+  margin-top: 5vh;
+}
+
+
+/* Footer Copyright Section */
+.copy-right
+{
+  display: flex;
+  justify-content: space-between;
+}
+.copy-right a
+{
+  color: #d2d2d2;
+  font-size: 0.8em;
+  color: white;
+}
+.copy-right h3
+{
+  font-size: 1em;
+}
+/* For very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Navbar */
+    .navbar-1 {
+      flex-direction: column;
+      align-items: center;
+      padding: 8px;
+    }
+  
+    .navbar-1 .nav1-links a,
+    .linksnavbar-2 a {
+      font-size: 12px;
+      margin: 5px 0;
+      text-align: center;
+    }
+  
+    .navbar-1 .options {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .logo-image {
+      width: 60%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    /* Second Navbar */
+    .navbar-2 {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .linksnavbar-2 {
+      text-align: center;
+    }
+  
+    .linksnavbar-2 a {
+      font-size: 12px;
+      margin-right: 5px;
+    }
+  
+    .apply-button button {
+      padding: 8px 16px;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  
+    /* Background Image and Text */
+    .background-image {
+      width: 96vw;
+      height: 50vh;
+    }
+  
+    .rankings-image {
+      width: 96vw;
+      height: 50vh;
+    }
+  
+    .alignment-text {
+      position: absolute;
+    }
+  
+    .alignment-text h1 {
+      position: absolute;
+      left: 10vw;
+      top: -45vh;
+      width: 90%;
+      text-align: center;
+      font-size: 1.5rem;
+      color: white;
+    }
+  
+    .alignment-text p {
+      position: absolute;
+      left: 10vw;
+      top: -30vh;
+      width: 90%;
+      font-size: 1rem;
+      color: white;
+      margin-top: 5px;
+    }
+  
+    /* Search Bar */
+    .search {
+      width: 40vw;
+      left: 30vw;
+      top: -25vh;
+      padding: 8px;
+      padding-left: 25px;
+      font-size: 1rem;
+      border-radius: 50px;
+      border: 1px solid #ddd;
+    }
+  
+    .search-i {
+      position: absolute;
+      left: 31vw;
+      top: -24vh;
+      font-size: 1.2rem;
+      color: #186294;
+    }
+  
+    /* Adjust Container and Boxes */
+    .container {
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      margin-right: 2vw;
+      margin-left: 2vw;
+    }
+  
+    .experience {
+      padding: 10px;
+    }
+  
+    .experience h1 {
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+  
+    .experience p {
+      font-size: 0.8em;
+    }
+  
+    .study-options {
+      padding: 30px;
+    }
+  
+    .study-options h1 {
+      margin-top: 0px;
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+  
+    .study-options i {
+      color: #819099a0;
+    }
+  
+    .study-options p {
+      font-size: 0.8em;
+    }
+  
+    .scholarships {
+      padding: 20px;
+    }
+  
+    .scholarships h1 {
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+  
+    .scholarships p {
+      font-size: 0.8em;
+    }
+  
+    /* Footer Section */
+    .footer {
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+  
+    .social-media {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .social-media .social-icon {
+      margin-right: 8px;
+      font-size: 1.3rem;
+      color: #d2d2d2;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .footer-section h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+  
+    .footer-section a {
+      font-size: 1rem;
+      display: block;
+      margin-bottom: 4px;
+    }
+  
+    .copy-right {
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  
+    .copy-right a {
+      margin-bottom: 5px;
+      font-size: 0.9rem;
+    }
+  
+    .copy-right h3 {
+      font-size: 1em;
+    }
+  
+    /* Footer Image */
+    .footer-image {
+      width: 70%;
+      margin-top: 15px;
+    }
+  
+    /* Legal Section */
+    .footer-section.legal-info p {
+      font-size: 0.9rem;
+    }
+  
+    /* Footer separator */
+    .footer-separator {
+      margin: 10px 0;
+    }
+  }
+  
+  /* For medium screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .navbar-1 {
+      flex-direction: column;
+      align-items: center;
+      padding: 8px;
+    }
+  
+    .navbar-1 .nav1-links a,
+    .linksnavbar-2 a {
+      font-size: 14px;
+      margin: 8px 0;
+      text-align: center;
+    }
+  
+    .logo-image {
+      width: 50%;
+      height: auto;
+    }
+  
+    .navbar-2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .linksnavbar-2 {
+      text-align: center;
+    }
+  
+    .apply-button button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    /* Background Image and Text */
+    .background-image {
+      width: 100%;
+      height: 50vh;
+    }
+  
+    .rankings-image {
+      width: 100%;
+      height: 50vh;
+    }
+  
+    .alignment-text {
+      position: absolute;
+    }
+  
+    .alignment-text h1 {
+      position: absolute;
+      left: 10vw;
+      top: -45vh;
+      width: 90%;
+      text-align: center;
+      font-size: 2rem;
+      color: white;
+    }
+  
+    .alignment-text p {
+      position: absolute;
+      left: 10vw;
+      top: -30vh;
+      width: 90%;
+      font-size: 1.2rem;
+      color: white;
+      margin-top: 5px;
+    }
+  
+    /* Search Bar */
+    .search {
+      width: 45vw;
+      left: 28vw;
+      top: -25vh;
+      padding: 8px;
+      padding-left: 25px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      border: 1px solid #ddd;
+    }
+  
+    .search-i {
+      position: absolute;
+      left: 30vw;
+      top: -24vh;
+      font-size: 1.5rem;
+      color: #186294;
+    }
+  
+    /* Container and Boxes */
+    .container {
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+  
+    .experience,
+    .study-options,
+    .scholarships {
+      padding: 20px;
+    }
+  
+    .experience h1,
+    .study-options h1,
+    .scholarships h1 {
+      font-size: 1.2rem;
+    }
+  
+    .experience p,
+    .study-options p,
+    .scholarships p {
+      font-size: 1rem;
+    }
+  
+    /* Footer Section */
+    .footer {
+      padding: 15px;
+      font-size: 1rem;
+    }
+  
+    .social-media {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      width: 100%;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  
+    .footer-section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+  
+    .footer-section a {
+      font-size: 1.1rem;
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .copy-right {
+      flex-direction: column;
+      align-items: center;
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .copy-right a {
+      margin-bottom: 5px;
+      font-size: 1rem;
+    }
+  
+    .copy-right h3 {
+      font-size: 1rem;
+    }
+  
+    .footer-image {
+      width: 70%;
+      margin-top: 15px;
+    }
+  
+    .footer-separator {
+      margin: 10px 0;
+    }
+  }
+  
